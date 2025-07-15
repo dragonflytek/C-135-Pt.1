@@ -1,31 +1,23 @@
-body{
-    background-position: center;
-    background-size: cover;
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
 }
-.header{
-    width: 100%;
-    margin: 0px;
-    font-size: large;
+
+input {
+  margin: 5px;
+  padding: 8px;
 }
-.input_class{
-    margin: 5px;
-    border-radius: 5px;
-    width: 20%;
-    color: green;
-    background-color: greenyellow;
-    border: 4px dashed grey;
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
 }
-.object_name_label{
-    font-weight: bold;
-    font-size: 15px;
-}
-canvas{
-    border-radius: 10px;
-    background-color: red;
-    box-shadow: 7px 7px 7px white;
-}
-p{
-    color: black;
-    margin-bottom: 0px;
-    font-size: small;
+
+#cardArea {
+  margin: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
 }
